@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.master {
+    display: flex;
+    background-color: #a1abdf;
+    height: 120%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px 4px  #5c6cbb;
+}
+
+.barra-lateral {
+    padding-top: 4%;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.barra-lateral img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 60%;
+}
+
+.barra-lateral img:hover{
+    width: 40%;
+    
+}
+.perfil{
+  margin-top: 170% ;
+}
+
+.barra-lateral h3:hover{
+    font-size: 130%;
+    
+}
+.menu{
+    box-shadow: 0 19px 38px #5c6cbb, 0 15px 12px rgba(45, 40, 255, 0.58);
+    background-color: rgb(233, 233, 233);
+    width: 90%;
+    height: auto;
+    border-radius: 55px;
+}
